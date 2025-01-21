@@ -1,0 +1,36 @@
+/*========================================================
+                    Custoom Properties 
+==========================================================*/
+:root { 
+    /* Agregando fuentes */
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    /* Agregando colores */
+    --color1: #000f00;
+    --color2:  #13341b;
+    --color3:  #734840;
+    --color4:  #b5ae7f;
+    --color5:  #e0e0cd;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10 px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--blanco);
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem; /* Tamaño fuente */
+    line-height: 2; /* Interlineado */
+}
+
+/*========================================================
+                        Globales 
+==========================================================*/
+
