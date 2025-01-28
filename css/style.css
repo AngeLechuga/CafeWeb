@@ -85,3 +85,22 @@ img {
 .centrar-texto {
     text-align: center;
 }
+
+/*========================================================
+                        Header 
+==========================================================*/
+
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /* decie qué parte de la imagen quiero que se vea hor vert */
+}
+
+/* Texto de header */
+.header__texto {
+    color: var(--color5);
+    text-align: center;
+    margin-top: 5rem;
+}
