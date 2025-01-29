@@ -172,3 +172,26 @@ img {
     border: none;
     margin-bottom: 0;
 }
+
+/* botón general */
+.boton {
+    display: block; /* toma todo el espacio en dispositivos pequeños */
+    font-family: var(--fuenteHeading);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color5);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .boton {
+    display: inline-block;
+  }
+}
+
+.botton--primario {
+    background-color: var(--color1);
+}
