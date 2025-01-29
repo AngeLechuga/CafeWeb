@@ -34,7 +34,7 @@ body {
                         Globales 
 ==========================================================*/
 
-.contendor {
+.contenedor {
     width: 120rem;
     width: 90%;
     margin: 0 auto;
@@ -148,3 +148,16 @@ img {
     color: var(--color5);
 }
 
+/*========================================================
+                        Main 
+==========================================================*/
+
+/* El main de esta página se encunetra en un div */
+
+@media (min-width: 768px) {
+  .contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 4rem;
+  }
+}
