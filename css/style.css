@@ -161,3 +161,14 @@ img {
     column-gap: 4rem;
   }
 }
+
+/* Entradas */
+.entrada {
+    border-bottom: 1px solid var(--color4);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
