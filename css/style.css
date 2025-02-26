@@ -257,6 +257,25 @@ img {
     }
 }
 
+.curso {
+    border-bottom: 1px solid var(--color4);
+    margin-bottom: 2rem;
+}
+
+.curso:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+
+.curso__label {
+    font-family: var(--fuenteHeading);
+    font-weight: bold;
+}
+
+.curso__info {
+    font-weight: normal;
+}
+
 /*========================================================
                         Footer 
 ==========================================================*/
